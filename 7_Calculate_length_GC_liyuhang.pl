@@ -1,4 +1,4 @@
-#!usr/bin/perl -w
+#!/usr/bin/perl -w
 use strict;
 #处理一个.fa文件。要求：从Athaliana.cds.subset.fa文件中仅提取cds ID，将id 中的T和G改成小写，同时将id后面的内容去除（AT2G9999.1->At2g99999)，并计算序列的长度以及序列中的GC含量。
 
